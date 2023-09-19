@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "quiro-ai"
+version = "0.1.0"
+description = "AI Platform that queries the user using the right questions."
+authors = ["WilliamLindskog <williamlindskog@protonmail.com>"]
+license = "BSD 3-Clause License"
+readme = "README.md"
+packages = [{include = "quiro"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
